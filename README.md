@@ -10,17 +10,20 @@ This project helps understand how different factors influence house prices using
 
 - **Dataset Name:** Ames Housing Dataset
 - **Source:** https://www.kaggle.com/code/hnazari8665/ames-housing-dataset
-- **Rows:** 2,9000
-- **Columns:** 82 (original training dataset)
+- **Original dataset:** 2,900 rows × 82 columns
+- **Selected dataset:** 2,900× 10 columns
 
 **Key Features:**
-- LotArea – Lot size of the property
-- OverallQual – Overall material and finish quality
-- GrLivArea – Above-ground living area
-- BedroomAbvGr – Number of bedrooms
-- FullBath – Number of full bathrooms
-- YearBuilt – Year the house was built
-- SalePrice – Target variable to be predicted
+- LotArea-Total lot size of the property
+- OverallQual-Overall material and finish quality
+- YearBuilt-Original construction year
+- TotalBsmtSF-Total basement area in square feet
+- GrLivArea-Above-ground living area
+- FullBath-Number of full bathrooms
+- BedroomAbvGr-Number of bedrooms above ground
+- GarageCars-Garage capacity in car spaces
+- Neighborhood-Physical location within Ames city
+- SalePrice-Final sale price of the house (Target Variable)
 
 ## TOOLS USED
 
